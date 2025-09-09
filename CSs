@@ -1,0 +1,9 @@
+// Node.js and Express.js example
+const express = require('express');
+const app = express();
+
+// Route to serve dynamic CSS
+app.get('/styles.css', (req, res) => {
+  const css = `
+    body {
+      background-color:
